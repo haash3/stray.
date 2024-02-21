@@ -55,4 +55,7 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+  .logo-text {
+    @apply font-palanquin text-coral-red text-4xl font-bold uppercase;
+  }
 }
