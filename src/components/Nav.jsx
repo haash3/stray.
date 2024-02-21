@@ -1,6 +1,7 @@
-
+// TO-DO 👉 Add functionality to Hamburger   
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants/index'
+// "Elevate your style, one step at a time.
 
 
 const Nav = () => {
@@ -11,7 +12,7 @@ const Nav = () => {
                       max-container'>
 
         <a href="/">
-          <div className='logo-text'>Relux</div>
+          <div className='logo-text'>stray</div>
         </a>
 
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>

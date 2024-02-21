@@ -58,4 +58,7 @@
   .logo-text {
     @apply font-palanquin text-coral-red text-4xl font-bold uppercase;
   }
+  .gradient-bg{
+    @apply  bg-gradient-to-r from-red-300 to-red-400 text-red-800
+  }
 }
