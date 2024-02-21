@@ -1,23 +1,48 @@
 import React from 'react'
 import Button from '../components/Button'
+import { statistics } from '../constants/index'
+import {bigShoe1} from '../assets/images'
+
+
 
 const Hero = () => {
   return (
    <section
    id='home'
-   className='w-full  flex xl:flex-row flex-col justify-center min-h-screen
-   p-2 max-container '>
-    <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
-    <p className='text-lg gradient-bg py-1 px-2 rounded-full'>Our Summer Collection</p>
-    <h1 className='text-8xl font-bold'>
-      <span>The New Arrival</span>
+   className='w-full  flex xl:flex-row flex-col justify-center min-h-screen p-2 max-container'>
+    <div className='relative flex-1 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
+    <h1 className='mt-5  text-8xl font-bold max-sm:text-[72px] font-palanquin leading-none'>
+      <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>The New Arrival Arrival</span>
       <br/>
-      <span className='text-coral-red'>Stray</span> Shoes
+      <span className='gradient-txt inline-block mt-3 mb-3 pt-3 pb-3'>Stray</span> Shoes
     </h1>
-    <p className='text-2xl py-4'>Elevate your style, one step at a time.</p>
-    <Button/>
-    </div>
+    <p className='text-xl my-4 mx-2 font-montserrat'>Elevate your style, one step at a time.</p>
+    <Button label='Shop now'/>
+    
 
+    <div className='flex  items-start flex-wrap w-full mt-10 gap-16  font-montserrat'>
+    {statistics.map((item, index)=>(
+      <div key={index}>
+       <p className='text-4xl font-bold'>
+       {item.value}
+        </p> 
+        <p className=' text-coral-red'>
+        {item.label}
+        </p>
+      </div>
+
+    )
+    )}
+    </div>
+    </div>
+      <div className='relative  flex-1 flex justify-center items-center 
+      xl:min-h-screen max-xl:py-40  bg-red-200   bg-center'>
+        <img src={bigShoe1} 
+        width={300}
+        height={500} 
+        className='object-contain relative z-10'
+        />
+      </div>
    </section>
   )
 }

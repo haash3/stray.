@@ -12,7 +12,7 @@ const Nav = () => {
                       max-container'>
 
         <a href="/">
-          <div className='logo-text'>stray</div>
+          <div className='logo-text'>stray.</div>
         </a>
 
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
