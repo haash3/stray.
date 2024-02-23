@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from '../components/Button'
-import { statistics } from '../constants/index'
-import { heroShoe2 } from '../assets/images'
+import ShoeCard from '../components/ShoeCard'
+import {  shoes, statistics } from '../constants/index'
 import { heroShoe1 } from '../assets/images'
-import { heroShoe3 } from '../assets/images'
 
 
 
@@ -11,45 +10,30 @@ import { heroShoe3 } from '../assets/images'
 
 
 const Hero = () => {
+  const [heroShoe, setHeroShoe] =useState(heroShoe1)
 
   return (
-   <section
-   id='home'
-   className='w-full  flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'>
-    <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
-    <h1 className='mt-5  text-8xl font-bold max-sm:text-[72px] font-palanquin leading-none'>
-      <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>The New Arrival</span>
-      <br/>
-      <span className='gradient-txt inline-block mt-3 mb-3 pt-3 pb-3'>Stray</span> Shoes
-    </h1>
-    <p className='text-xl my-4 mx-2 font-montserrat'>Elevate your style, one step at a time.</p>
-    <Button label='Shop now'/>
-    
+    <section
+      id='home'
+      className='w-full bg-banner mx-0 bg-cover lg:text-center min-h-screen'>
+      <div className=' flex flex-col justify-center items-center w-full max-xl:padding-x pt-28'>
+        <h1 className='text-8xl text-stone-300/75 font-montserrat font-semibold'>
+          Walk To 
+        </h1>
+        <h1 className='text-8xl text-stone-300/75 font-montserrat font-semibold'>
+           Your Own Beat
+        </h1>
+        <Button label='Shop now' />
 
-    <div className='flex justify-start items-start flex-wrap w-full mt-10 gap-16  font-montserrat'>
-    {statistics.map((item, index)=>(
-      <div key={index}>
-       <p className='text-4xl font-bold'>
-       {item.value}
-        </p> 
-        <p className=' text-coral-red'>
-        {item.label}
-        </p>
+        
       </div>
+      {/* Shoe display section */}
 
-    )
-    )}
-    </div>
-    </div>
-      <div className='relative  flex-1 flex justify-center items-center 
-      xl:min-h-screen max-xl:py-40  bg-red-200  bg-cover'>
-        <img src={heroShoe3} 
-        width={600}
-        height={700} 
-        className='object-contain relative drop-shadow-2xl  z-10'
-        />
-      </div>
-   </section>
+     
+
+          
+        
+    </section>
   )
 }
 
