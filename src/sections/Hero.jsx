@@ -1,7 +1,9 @@
 import React from 'react'
 import Button from '../components/Button'
 import { statistics } from '../constants/index'
-import {bigShoe} from '../assets/images'
+import { heroShoe2 } from '../assets/images'
+import { heroShoe1 } from '../assets/images'
+import { heroShoe3 } from '../assets/images'
 
 
 
@@ -40,9 +42,9 @@ const Hero = () => {
     </div>
     </div>
       <div className='relative  flex-1 flex justify-center items-center 
-      xl:min-h-screen max-xl:py-40  bg-red-200 rounded-full bg-center'>
-        <img src={bigShoe} 
-        width={500}
+      xl:min-h-screen max-xl:py-40  bg-red-200  bg-cover'>
+        <img src={heroShoe3} 
+        width={600}
         height={700} 
         className='object-contain relative drop-shadow-2xl  z-10'
         />
