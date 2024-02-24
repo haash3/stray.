@@ -29,7 +29,7 @@
   }
 
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-28 px-8;
   }
 
   .padding-y {
@@ -56,12 +56,15 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
   .logo-text {
-    @apply font-palanquin text-coral-red text-4xl font-bold italic tracking-wider ;
+    @apply font-montserrat text-black text-[40px] font-extrabold italic   ;
   }
-  .gradient-bg{
+  .banner-text{
+    @apply lg:text-[40px] md:text-[30px] tracking-tighter uppercase  text-white font-montserrat leading-8 font-bold;
+  }
+  /* .gradient-bg{
     @apply  bg-gradient-to-r from-red-300 to-red-400 text-red-800
   }
   .gradient-txt{
     @apply bg-gradient-to-r from-coral-red  via-red-500 to-red-300 text-transparent bg-clip-text
-  }
+  } */
 }

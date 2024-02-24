@@ -34,12 +34,23 @@ export default {
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
+        'banner1': "url('assets/images/banner1.png')",
+        'bannerSs': "url('assets/images/small-screen.jpg')",
+
       },
       screens: {
         "wide": "1440px"
+      },
+      boxShadow: {
+        'color-shadow': '5px 5px 0px rgba(0, 0, 0, 5)',
+      },
+      border: {
+        
       }
+      
     },
   },
-  plugins: [],
+  plugins: [ ],
 }
+
 
