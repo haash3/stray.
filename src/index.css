@@ -29,7 +29,7 @@
   }
 
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-28 px-8;
   }
 
   .padding-y {
@@ -57,6 +57,9 @@
   }
   .logo-text {
     @apply font-montserrat text-black text-[40px] font-extrabold italic   ;
+  }
+  .banner-text{
+    @apply lg:text-[40px] md:text-[30px] tracking-tighter uppercase  text-white font-montserrat leading-8 font-bold;
   }
   /* .gradient-bg{
     @apply  bg-gradient-to-r from-red-300 to-red-400 text-red-800
