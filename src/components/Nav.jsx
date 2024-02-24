@@ -1,21 +1,22 @@
 // TO-DO 👉 Add functionality to Hamburger   
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants/index'
+
 // "Elevate your style, one step at a time.
 
 
 const Nav = () => {
   return (
-    <header className='padding-x py-4  w-full'>
-      <nav className='flex justify-between 
+    <header className='padding-x py-2  w-full'>
+      <nav className='flex justify-between
                       items-center 
-                      max-container'>
+                      '>
 
         <a href="/">
-          <div className='logo-text'>stray.</div>
+          <div className='logo-text flex'> stray.</div>
         </a>
 
-        <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
+        <ul className=' flex justify-center items-center gap-16 max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
               <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-700'>

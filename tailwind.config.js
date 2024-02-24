@@ -34,13 +34,35 @@ export default {
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
-        'banner': "url('assets/images/banner.png')",
+        'banner1': "url('assets/images/banner1.png')",
+        'bannerSs': "url('assets/images/small-screen.jpg')",
+
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      scrollbar: {
+        // Track
+        track: {
+          width: "8px", // Adjust width as needed
+          height: "8px",
+          backgroundColor: "red-500",
+          borderRadius: "999px", // Consistent with Tailwind's default borderRadius
+        },
+
+        // Thumb
+        thumb: {
+          width: "8px",
+          height: "8px",
+          backgroundColor: "red-300",
+          borderRadius: "999px", // Consistent with Tailwind's default borderRadius
+          hover: {
+            backgroundColor: "red-800",
+          },
+        },
     },
   },
-  plugins: [],
+  plugins: [ ],
+}
 }
 

@@ -56,7 +56,7 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
   .logo-text {
-    @apply font-montserrat text-black text-4xl font-bold italic  ;
+    @apply font-montserrat text-black text-[40px] font-extrabold italic   ;
   }
   /* .gradient-bg{
     @apply  bg-gradient-to-r from-red-300 to-red-400 text-red-800
