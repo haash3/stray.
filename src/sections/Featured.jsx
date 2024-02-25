@@ -1,5 +1,4 @@
 import { featuredProducts } from "../constants"
-import FeaturedCard from "../components/FeaturedCard"
 
 
 const Featured = () => {
@@ -17,7 +16,7 @@ const Featured = () => {
        sm:grid-cols-3  grid-cols-1
        sm:gap-3 gap-10">
         {featuredProducts.map((product)=>(
-          <div className=""> 
+          <div className="" key={product.name}> 
             <a href="#Products">
             <img src={product.imgURL} alt="Featured Collection" className="zoom-out" />
            <h2 className="text-[30px] tracking-wider font-palanquin">{product.name}</h2>
