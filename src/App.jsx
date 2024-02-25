@@ -1,18 +1,20 @@
-import { Hero, PopularProducts, SuperQuality, Services, SpecialOffer,
+import { Hero, Featured, SuperQuality, Services, SpecialOffer,
 Subscribe, Footer, CustomerReviews } from "./sections";
 import Nav from './components/Nav';
 import './app-scrollbar.css'
+import MarqueeFeature from "./sections/MarqueeFeature";
 
 
 const App = () =>(
 
   <main className="custom-scrollbar" >
+    <MarqueeFeature/>
     <Nav/>
     <section className="">
       <Hero/>
     </section>
     <section className="padding">
-      <PopularProducts/> 
+      <Featured/> 
     </section>
     <section className="padding">
       <SuperQuality/> 

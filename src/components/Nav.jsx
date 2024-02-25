@@ -16,10 +16,10 @@ const Nav = () => {
           <div className='logo-text flex'> stray.</div>
         </a>
 
-        <ul className=' flex justify-center items-center gap-16 max-lg:hidden'>
+        <ul className=' flex justify-center items-center gap-16 font-montserrat font-medium max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-700'>
+              <a href={item.href} className='font-montserrat leading-normal font-semibold uppercase text-[15px] text-black'>
                 {item.label}
               </a>
             </li>

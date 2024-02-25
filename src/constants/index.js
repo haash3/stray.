@@ -1,43 +1,53 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import {  customer1, customer2, shoe4, shoe5, shoe6, shoe7,  } from "../assets/images";
+import {  customer1, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },
+    { href: "#cart", label: "Cart"},
 ];
 
+export const featuredProducts = [
+    {
+        imgURL : featuredMen,
+        name : "Men's Air Max",
+    },
+    {
+        imgURL : featuredWomen,
+        name : "Women's Air Max",
+    },
+    {
+        imgURL : featuredUnisex,
+        name : "RS-X Unisex Sneakers",
+    },
+]
 
 
-export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
-];
 
-export const products = [
-    {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-    },
-    {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
-    },
-];
+// export const popularProducts = [
+//     {
+//         imgURL: shoe4,
+//         name: "Nike Air Jordan-01",
+//         price: "$200.20",
+//     },
+//     {
+//         imgURL: shoe5,
+//         name: "Nike Air Jordan-10",
+//         price: "$210.20",
+//     },
+//     {
+//         imgURL: shoe6,
+//         name: "Nike Air Jordan-100",
+//         price: "$220.20",
+//     },
+//     {
+//         imgURL: shoe7,
+//         name: "Nike Air Jordan-001",
+//         price: "$230.20",
+//     },
+// ];
 
 export const services = [
     {

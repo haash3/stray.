@@ -61,10 +61,15 @@
   .banner-text{
     @apply lg:text-[40px] md:text-[30px] tracking-tighter uppercase  text-white font-montserrat leading-8 font-bold;
   }
-  /* .gradient-bg{
-    @apply  bg-gradient-to-r from-red-300 to-red-400 text-red-800
+  .marquee-button{
+    @apply text-white p-2 mx-2 text-sm   font-light tracking-widest   font-montserrat
   }
-  .gradient-txt{
-    @apply bg-gradient-to-r from-coral-red  via-red-500 to-red-300 text-transparent bg-clip-text
-  } */
+  .zoom-out {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .zoom-out:hover {
+    transform: scale(0.98); /* Zoom out by 10% */
+    filter: brightness(70%); /* Decrease brightness by 10% */
+  }
 }
