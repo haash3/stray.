@@ -171,6 +171,29 @@ export const footerLinks = [
         ],
     },
 ];
+export const ssFooterLinks = [
+    {
+        title : 'Delivery'
+    },
+    {
+        title : 'Order Tracker'
+    },
+    {
+        title : 'Store Finder'
+    },
+    {
+        title : 'strayclub Terms and Conditons'
+    },
+    {
+        title : 'Returns and Refunds'
+    },
+    {
+        title : 'Help'
+    },
+    {
+        title : 'strayclub'
+    },
+]
 
 export const socialMedia = [
     { src: facebook, alt: "facebook logo" },
