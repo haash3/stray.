@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import {  customer1,adidas,reebok,puma,fila,converse,nike, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
+import {  customer1,adidas,reebok,puma,rating,converse,nike, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -54,28 +54,6 @@ export const topBrands = [
 
 
 
-// export const popularProducts = [
-//     {
-//         imgURL: shoe4,
-//         name: "Nike Air Jordan-01",
-//         price: "$200.20",
-//     },
-//     {
-//         imgURL: shoe5,
-//         name: "Nike Air Jordan-10",
-//         price: "$210.20",
-//     },
-//     {
-//         imgURL: shoe6,
-//         name: "Nike Air Jordan-100",
-//         price: "$220.20",
-//     },
-//     {
-//         imgURL: shoe7,
-//         name: "Nike Air Jordan-001",
-//         price: "$230.20",
-//     },
-// ];
 
 export const services = [
     {
@@ -96,48 +74,100 @@ export const services = [
 ];
 
 export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-    },
-    {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+   {
+    imgURL: rating,
+    feedback:  "Absolutely love my new sneakers from stray! They're unlike anything I've ever seen, and they always turn heads wherever I go. Super comfortable too!",
+    name : "Emily"
+   },
+   {
+    imgURL: rating,
+    feedback: "I'm a sneaker enthusiast, and I have to say, the designs from [Your Brand] are on another level. The attention to detail and quality are top-notch. Will definitely be buying more!",
+    name : "Gaurav"
+   },
+   {
+    imgURL: rating,
+    feedback: "[Your Brand] has quickly become my go-to for stylish sneakers. The range of designs is amazing, and the compliments I get when wearing them are endless. Highly recommend!",
+    name : "David"
+   },
+   {
+    imgURL: rating,
+    feedback: "I stumbled upon [Your Brand] while looking for unique sneakers, and I'm so glad I did. The craftsmanship is excellent, and I love that they offer styles that stand out from the crowd.",
+    name : "Anisha"
+   },
+   {
+    imgURL: rating,
+    feedback: "These sneakers from [Your Brand] are the perfect blend of style and comfort. Whether I'm running errands or going out with friends, they're always my first choice. Great job, [Your Brand]!",
+    name : "Jordan"
+   },
+   {
+    imgURL: rating,
+    feedback:"I'm constantly asked where I got my sneakers, and I'm proud to say they're from [Your Brand]. The designs are unique, and the quality is exceptional. Can't wait to see what they release next!" ,
+    name : "Alex"
+   },
+ 
+   
 ];
 
 
 export const footerLinks = [
     {
+        title: "Company Info",
+        links: [
+            { name: "News", link: "/" },
+            { name: "Careers", link: "/" },
+            { name: "Investors", link: "/" },
+            { name: "Sustainability", link: "/" },
+        ],
+    },
+    {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Outlet Sale", link: "/" },
+            { name: "New Arrivals", link: "/" },
+            { name: "Special Offer", link: "/" },
+            { name: "Flat 50% Off!", link: "/" },
         ],
     },
     {
-        title: "Help",
+        title: "Quick Links",
         links: [
             { name: "About us", link: "/" },
+            { name: "Terms and Conditions", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Return Policy", link: "/" },
+            { name: "Privacy Policy", link: "/" },
+            { name: "Payment Policy", link: "/" },
         ],
     },
     {
-        title: "Get in touch",
+        title: "Collections",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "Ultraboost", link: "/" },
+            { name: "Superstar", link: "/" },
+            { name: "NMD", link: "/" },
+            { name: "Stan Smith", link: "/" },
+            { name: "Sustainability", link: "/" },
+            { name: "Predator", link: "/" },
+            { name: "Parley", link: "/" },
+            { name: "adicolor", link: "/" },
+        ],
+    },
+    {
+        title: "For Business Inquiries",
+        links: [
+            { name: "admin@stray.com", link: "mailto:admin@stray.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
+        ],
+    },
+    {
+        title: "support",
+        links: [
+            { name: "Help", link: "/" },
+            { name: "Customer Services", link: "/" },
+            { name: "Returns and Exchanges", link: "/" },
+            { name: "Shipping", link: "/" },
+            { name: "Order Tracker", link: "/" },
+            { name: "strayclub Terms and Conditions", link: "/" },
         ],
     },
 ];

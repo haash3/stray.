@@ -67,12 +67,24 @@
   .zoom-out {
     transition: transform 0.3s ease, filter 0.3s ease;
   }
+  .zoom-out-text {
+    transition: border 0.1s ease;
+  }
 
   .zoom-out:hover {
     transform: scale(0.98); /* Zoom out by 10% */
     filter: brightness(70%); /* Decrease brightness by 10% */
   }
+  .zoom-out-text:hover {
+    cursor: pointer;
+    border-bottom: solid black 8px;
+    
+  }
   .custom-border:hover {
     height: 18px; /* Adjust the height value as needed */
+  }
+  p.v-line::after {
+    content: '|';
+    margin-left: 6px; /* Adjust as needed */
   }
 }

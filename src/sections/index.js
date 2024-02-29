@@ -6,6 +6,7 @@ import SpecialOffer from './SpecialOffer';
 import CustomerReviews from './CustomerReviews';
 import Subscribe from './Subscribe';
 import Footer from './Footer';
+import Copyright from './Copyright';
 
 
 
@@ -17,5 +18,6 @@ export {
     Services,
     SpecialOffer,
     CustomerReviews,
-    Footer
+    Footer,
+    Copyright
 }

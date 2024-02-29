@@ -19,7 +19,7 @@ import converse from './converse.png'
 
 
 
-
+import rating from './rating.svg'
 
 export {
 
@@ -37,5 +37,6 @@ export {
     fila,
     nike,
     converse,
+    rating,
     
 }

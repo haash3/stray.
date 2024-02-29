@@ -1,9 +1,9 @@
-import React from 'react'
+
+import { useEffect,useState } from 'react';
+import  {reviews} from '../constants';
 
 const CustomerReviews = () => {
-  return (
-    <div>CustomerReviews</div>
-  )
-}
 
-export default CustomerReviews
+  
+}
+ export default CustomerReviews;

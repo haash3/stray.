@@ -16,9 +16,9 @@ const SuperQuality = () => {
                          sm:gap-20 gap-10 font-montserrat font-extrabold">
           {topBrands.map((brand) => (
             <div className="h-20" key={brand.name}>
-              <div className="text-[40px] tracking-wider
+              <div className="text-[40px] zoom-out-text tracking-wider
                                 font-palanquin mb-2 p-2 border-b
-                               border-black hover:border-b-8
+                               border-black 
                                  flex items-center">
                 <img src={brand.imgURL} width={75} />
                 {brand.name}

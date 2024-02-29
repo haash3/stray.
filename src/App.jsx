@@ -1,5 +1,5 @@
 import { Hero, Featured, TopBrands, Services, SpecialOffer,
-Subscribe, Footer, CustomerReviews } from "./sections";
+Subscribe, Footer, CustomerReviews,Copyright } from "./sections";
 import Nav from './components/Nav';
 import './app-scrollbar.css'
 import MarqueeFeature from "./sections/MarqueeFeature";
@@ -25,14 +25,17 @@ const App = () =>(
     <section className="padding">
       <SpecialOffer/> 
     </section>
-    <section className="padding bg-pale-blue">
+    <section className="padding">
       <CustomerReviews/> 
     </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
+    <section className="padding-x w-full pt-10 pb-10 bg-yellow-400/50 ">
       <Subscribe/>
     </section>
-    <section className="padding bg-black padding-x padding-t pb-8">
+    <section className="padding bg-black/5">
       <Footer/>
+    </section>
+    <section className="padding-x w-full pt-10 pb-10 bg-black/90">
+      <Copyright/>
     </section>
   </main>
 
