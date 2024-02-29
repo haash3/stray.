@@ -1,7 +1,7 @@
 import Hero from './Hero';
 import Featured from './Featured';
 import TopBrands from './TopBrands';
-import Services from './Services';
+import BestSellers from './BestSellers';
 import SpecialOffer from './SpecialOffer';
 import CustomerReviews from './CustomerReviews';
 import Subscribe from './Subscribe';
@@ -15,7 +15,7 @@ export {
     Featured,
     TopBrands,
     Subscribe,
-    Services,
+    BestSellers,
     SpecialOffer,
     CustomerReviews,
     Footer,

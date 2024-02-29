@@ -1,4 +1,6 @@
 import React from 'react'
+import { sEight3 } from '../assets/images/productIndex'
+import { sFive3 } from '../assets/images/productIndex'
 
 const Subscribe = () => {
   return (
