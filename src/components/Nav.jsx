@@ -7,7 +7,7 @@ import { navLinks } from '../constants/index'
 
 const Nav = () => {
   return (
-    <header className='padding-x py-2  w-full'>
+    <header className=' padding-x py-2  w-full'>
       <nav className='flex justify-between
                       items-center 
                       '>

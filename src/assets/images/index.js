@@ -10,6 +10,13 @@ import featuredMen from './featuredMen.jpg'
 import featuredWomen from './featuredWomen.jpeg'
 import featuredUnisex from './featuredUnisex.jpg'
 
+import adidas from './adidas.png'
+import reebok from './reebok.png'
+import puma from './puma.png'
+import fila from './fila.png'
+import nike from './nike.png'
+import converse from './converse.png'
+
 
 
 
@@ -24,5 +31,11 @@ export {
     featuredMen,
     featuredWomen,
     featuredUnisex,
+    adidas,
+    reebok,
+    puma,
+    fila,
+    nike,
+    converse,
     
 }

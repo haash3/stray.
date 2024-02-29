@@ -25,11 +25,11 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-16 px-8 sm:py-20 py-12;
   }
 
   .padding-x {
-    @apply sm:px-28 px-8;
+    @apply sm:px-24 px-8;
   }
 
   .padding-y {
@@ -71,5 +71,8 @@
   .zoom-out:hover {
     transform: scale(0.98); /* Zoom out by 10% */
     filter: brightness(70%); /* Decrease brightness by 10% */
+  }
+  .custom-border:hover {
+    height: 18px; /* Adjust the height value as needed */
   }
 }

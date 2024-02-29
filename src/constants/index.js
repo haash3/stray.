@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import {  customer1, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
+import {  customer1,adidas,reebok,puma,fila,converse,nike, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -21,6 +21,34 @@ export const featuredProducts = [
     {
         imgURL : featuredUnisex,
         name : "RS-X Unisex Sneakers",
+    },
+]
+
+export const topBrands = [
+    {
+        imgURL: adidas,
+        name : 'adidas',
+    },
+    {
+        imgURL: nike,
+        name : 'Nike',
+    },
+
+    {
+        imgURL: puma,
+        name : 'Puma',
+    },
+    {
+        imgURL: reebok,
+        name : 'Reebok',
+    },
+    {
+        imgURL: adidas,
+        name : 'Fila',
+    },
+    {
+        imgURL: converse,
+        name : 'Converse',
     },
 ]
 

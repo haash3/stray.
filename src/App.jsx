@@ -7,7 +7,7 @@ import MarqueeFeature from "./sections/MarqueeFeature";
 
 const App = () =>(
 
-  <main className="custom-scrollbar" >
+  <main className="custom-scrollbar">
     <MarqueeFeature/>
     <Nav/>
     <section className="">
@@ -16,7 +16,7 @@ const App = () =>(
     <section className="padding">
       <Featured/> 
     </section>
-    <section className="padding">
+    <section className="padding bg-black/5">
       <TopBrands/> 
     </section>
     <section className="padding-x py-10">
