@@ -1,4 +1,4 @@
-import { Hero, Featured, TopBrands, BestSellers, SpecialOffer,
+import { Hero, Featured, TopBrands, BestSellers, OurStores,
 Subscribe, Footer, CustomerReviews,Copyright } from "./sections";
 import Nav from './components/Nav';
 import './app-scrollbar.css'
@@ -23,7 +23,7 @@ const App = () =>(
       <BestSellers/>
     </section>
     <section className="padding">
-      <SpecialOffer/> 
+      <OurStores/> 
     </section>
     <section className="padding">
       <CustomerReviews/> 
