@@ -67,14 +67,22 @@
   .zoom-out {
     transition: transform 0.3s ease;
   }
+  .zoom-in {
+    transition: transform 0.3s ease;
+  }
   .zoom-out-text {
-    transition: border 0.1s ease;
+    transition: border 0.3s ease;
   }
 
   .zoom-out:hover {
+    transform: scale(1.04); /* Zoom out by 10% */
+    
+  }
+  .zoom-in:hover {
     transform: scale(0.98); /* Zoom out by 10% */
     
   }
+
   .zoom-out-text:hover {
     cursor: pointer;
     border-bottom: solid black 8px;
@@ -87,19 +95,10 @@
     content: '|';
     margin-left: 6px; /* Adjust as needed */
   }
-  .price-hover:hover{
-    margin-bottom: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    box-shadow: 1px 1px 1px black;
-  }
-  .transition-bottom {
-    transition: bottom 0.3s ease; /* Adjust the duration and timing function as needed */
-  }
-  .slick-slide > div{
-    margin: 0 10px;
-  }
-  .slick-slide > button{
-    display: none;
-  }
+ 
+  
+ 
+
+ 
+  
 }

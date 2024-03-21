@@ -12,7 +12,7 @@ const BestSellers = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4,
-      slidesToSlide: 3,
+      slidesToSlide: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -23,6 +23,7 @@ const BestSellers = () => {
       items: 1,
     },
   };
+  
   return (
     <section>
       <h2 className="text-3xl font-semibold tracking-tighter font-montserrat mb-5">
@@ -32,15 +33,17 @@ const BestSellers = () => {
        responsive={responsive}
       >
         {bestSellers.map((product) => (
-          <div key={product.name} className="m-2 hover:border border-black zoom-out">
+          <div key={product.name} className="mr-3">
             <img
               src={product.imgURL}
               alt={product.name}
-              className="w-full object-contain"
+              className="w-full object-contain zoom-out"
+              
             />
             <div className="mt-2 px-2 pb-2">
-              <p className="text-lg font-semibold">{product.name}</p>
-              <p className="text-gray-600">{product.price}</p>
+              <p className="text-[18px] font-semibold my-1">{product.name}</p>
+            <p className="text-slate-500 my-1"> {product.category}</p>
+            <p className="text-slate-950 my-1 text-[20px] font-semibold"> MRP : ₹ {product.price}</p>
             </div>
           </div>
         ))}

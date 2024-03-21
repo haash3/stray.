@@ -18,7 +18,7 @@ const Featured = () => {
           {featuredProducts.map((product) => (
             <div className="" key={product.name}>
               <a href="#Products">
-                <img src={product.imgURL} alt="Featured Collection" className="zoom-out " />
+                <img src={product.imgURL} alt="Featured Collection" className="zoom-in " />
                 <h2 className="text-[20px] tracking-wider font-palanquin mt-8">{product.name}</h2>
               </a>  </div>
 
