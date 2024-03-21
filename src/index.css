@@ -95,6 +95,27 @@
     content: '|';
     margin-left: 6px; /* Adjust as needed */
   }
+  .bS-hover{
+    transition: bottom 0.3s ease;
+  }
+  .lift-up{
+    position: absolute;
+    bottom: 0px;
+    left: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    padding:  4px;
+    transition: bottom 0.3s ease;
+
+  }
+  .bS-hover:hover .lift-up{
+    bottom: 0.5rem;
+    /* border: 1px solid black; */
+    
+  }
+  .bS-hover:hover{
+    border: 1px solid black;
+  }
  
   
  
