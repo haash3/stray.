@@ -33,18 +33,23 @@ const BestSellers = () => {
        responsive={responsive}
       >
         {bestSellers.map((product) => (
-          <div key={product.name} className="mr-3">
+          <div key={product.name} className="mr-3  bS-hover">
+            <div className='relative'>
             <img
               src={product.imgURL}
               alt={product.name}
-              className="w-full object-contain zoom-out"
-              
+              className="w-full object-contain  " 
             />
+            <p className="text-slate-950  text-[15px] 
+            font-semibold lift-up font-sans">
+              ₹<span className='font-light'>{product.price}</span></p>
+            </div>
+          
             <div className="mt-2 px-2 pb-2">
               <p className="text-[18px] font-semibold my-1">{product.name}</p>
             <p className="text-slate-500 my-1"> {product.category}</p>
-            <p className="text-slate-950 my-1 text-[20px] font-semibold"> MRP : ₹ {product.price}</p>
             </div>
+           
           </div>
         ))}
       </Carousel>
