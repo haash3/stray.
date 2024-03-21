@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import {  customer1,adidas,reebok,puma,rating,converse,nike, customer2, featuredMen, featuredUnisex, featuredWomen } from "../assets/images";
+import {  adidas,reebok,puma,converse,nike,  featuredMen, featuredUnisex, featuredWomen,ourStore1, ourStore2 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -53,6 +53,19 @@ export const topBrands = [
 ]
 
 
+export const ourStores = [
+    {
+        imgURL : ourStore1,
+        name : "Mumbai",
+    },
+    {
+        imgURL : ourStore2,
+        name : "Delhi",
+
+        
+    },
+   
+]
 
 
 export const services = [
@@ -73,40 +86,10 @@ export const services = [
     },
 ];
 
-export const reviews = [
-   {
-    imgURL: rating,
-    feedback:  "Absolutely love my new sneakers from stray! They're unlike anything I've ever seen, and they always turn heads wherever I go. Super comfortable too!",
-    name : "Emily"
-   },
-   {
-    imgURL: rating,
-    feedback: "I'm a sneaker enthusiast, and I have to say, the designs from [Your Brand] are on another level. The attention to detail and quality are top-notch. Will definitely be buying more!",
-    name : "Gaurav"
-   },
-   {
-    imgURL: rating,
-    feedback: "[Your Brand] has quickly become my go-to for stylish sneakers. The range of designs is amazing, and the compliments I get when wearing them are endless. Highly recommend!",
-    name : "David"
-   },
-   {
-    imgURL: rating,
-    feedback: "I stumbled upon [Your Brand] while looking for unique sneakers, and I'm so glad I did. The craftsmanship is excellent, and I love that they offer styles that stand out from the crowd.",
-    name : "Anisha"
-   },
-   {
-    imgURL: rating,
-    feedback: "These sneakers from [Your Brand] are the perfect blend of style and comfort. Whether I'm running errands or going out with friends, they're always my first choice. Great job, [Your Brand]!",
-    name : "Jordan"
-   },
-   {
-    imgURL: rating,
-    feedback:"I'm constantly asked where I got my sneakers, and I'm proud to say they're from [Your Brand]. The designs are unique, and the quality is exceptional. Can't wait to see what they release next!" ,
-    name : "Alex"
-   },
+
  
    
-];
+
 
 
 export const footerLinks = [
