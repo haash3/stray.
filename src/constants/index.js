@@ -2,10 +2,10 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "..
 import {  adidas,reebok,puma,converse,nike,  featuredMen, featuredUnisex, featuredWomen,ourStore1, ourStore2 } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#men", label: "Men" },
+    { href: "#women", label: "Women" },
+    { href: "#new-arrivals", label: "New-Arrivals" },
+    { href: "#help", label: "Help" },
     { href: "#cart", label: "Cart"},
 ];
 

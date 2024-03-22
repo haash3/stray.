@@ -4,8 +4,7 @@ import TopBrands from './TopBrands';
 import BestSellers from './BestSellers';
 import OurStores from './OurStores';
 import Subscribe from './Subscribe';
-import Footer from './Footer';
-import Copyright from './Copyright';
+
 
 
 
@@ -16,6 +15,4 @@ export {
     Subscribe,
     BestSellers,
     OurStores,
-    Footer,
-    Copyright
 }

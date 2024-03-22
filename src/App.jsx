@@ -1,8 +1,10 @@
 import { Hero, Featured, TopBrands, BestSellers, OurStores,
-Subscribe, Footer, Copyright } from "./sections";
+Subscribe, } from "./sections";
 import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 import './app-scrollbar.css'
-import MarqueeFeature from "./sections/MarqueeFeature";
+import MarqueeFeature from "./components/MarqueeFeature";
 
 
 const App = () =>(
